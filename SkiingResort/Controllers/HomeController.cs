@@ -20,6 +20,8 @@ namespace SkiingResort.Controllers
 
             resort.CurrentWeather = currentWeather;
 
+            var newStr = "";
+
             return View();
         }
 
