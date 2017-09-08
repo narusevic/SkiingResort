@@ -7,8 +7,8 @@ namespace SkiingResort.Models
 {
     public class Room
     {
-        public int Number { get; set; }
-        public bool Available { get; set; }
+        public int Name { get; set; }
         public double Price { get; set; }
+        public bool Available { get; set; }
     }
 }
