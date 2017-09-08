@@ -27,14 +27,14 @@ namespace SkiingResort.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Skiing Resort";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "The name of Skiing Resort.";
 
             return View();
         }
