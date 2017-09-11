@@ -8,7 +8,7 @@ namespace SkiingResort.Models
     public class Weather
     {
         public int Temperature { get; set; }
-        public float Humidity { get; set; }
-        public float Cloudiness { get; set; }
+        public double Humidity { get; set; }
+        public double Cloudiness { get; set; }
     }
 }
