@@ -14,7 +14,6 @@ namespace SkiingResort.Controllers
             var resort = new Models.SkiingResort();
             var currentWeather = new Weather();
 
-            currentWeather.Temperature = 15;
             currentWeather.Humidity = 0.7F;
             currentWeather.Cloudiness = 1;
 
